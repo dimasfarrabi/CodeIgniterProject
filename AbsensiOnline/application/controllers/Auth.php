@@ -70,7 +70,7 @@ class Auth extends CI_Controller
                 ]);
             }
         }
-
+        # returns
         $this->session->set_flashdata('response', [
             'status' => 'success', 
             'message' => 'Selamat Datang ' . $user_data->nama
